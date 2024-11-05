@@ -16,12 +16,10 @@ class UserLogin
      */
     public function handle(Request $request, Closure $next): Response
     {
-        if (!Auth::check()) {
-            // If not logged in, redirect to the login page
-            return redirect('/login');
+        if (Auth::check()) {
+            return $next($request);
         }
 
-        // If the user is authenticated, pass the request along to the next middleware/controller
-        return $next($request);
+        return redirect('/');
     }
 }

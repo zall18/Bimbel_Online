@@ -41,7 +41,7 @@
                         <label for="password" class="form-label">Password</label>
                         <input type="password" class="form-control" id="password" placeholder="Enter your password" name="password">
                     </div>
-                    <input type="submit" class="btn btn-primary w-100 mb-3" value="Login">
+                    <button type="submit" class="btn btn-primary w-100 mb-3" value="Login">Login</button>
                     <a href="/register" class="btn btn-warning w-100">Register</a>
                 </form>
             </div>

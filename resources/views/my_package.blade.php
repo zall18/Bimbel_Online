@@ -85,13 +85,13 @@
           <div class="collapse navbar-collapse d-md-flex justify-content-md-end" id="collapsibleNavbar">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="home.html">Beranda</a>
+                    <a class="nav-link" href="/home">Beranda</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="my_package.html">Paket Belajar Saya</a>
+                <a class="nav-link" href="/my_package">Paket Belajar Saya</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">Logout</a>
+                    <a class="nav-link" href="/logout">Logout</a>
 
                 </li>
             </ul>
